@@ -1,0 +1,9 @@
+{
+    "name": "AIServices",
+    "short_name": "APIBoat",
+    "start_url": "/",
+    "display": "standalone",
+    "theme_color": "#ffffff",
+    "background_color": "#ffffff"
+  }
+  

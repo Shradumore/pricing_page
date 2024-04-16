@@ -1,0 +1,43 @@
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%; /* Make the button take the whole width */
+  font-size: large;
+  background-image: linear-gradient(to right, rgba(207, 226, 44, 0.981), rgb(8, 207, 64));
+  padding: 10px 20px; /* Adjust padding as needed */
+  border-radius: 5px;
+  text-decoration: none;
+  color: white;
+  
+}
+
+.btn.middle-btn {
+  /* Style for the button in the middle card */
+  /* Add your specific styles here */
+  margin-top: 40px;
+ 
+ 
+}
+
+#btn:hover {
+  color: red;
+  
+
+  
+}
+
+/* Media query for viewport width of 600px */
+@media (max-width: 600px) {
+  .btn {
+    /* Adjust button styles for smaller screens */
+    font-size: medium;
+    padding: 8px 16px; /* Adjust padding for smaller screens */
+    margin-top: 20px; /* Adjust margin-top for smaller screens */
+  }
+}
+
+
+
+  
+

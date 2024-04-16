@@ -1,0 +1,105 @@
+.card-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start; /* Align items at the start of the container */
+  flex-wrap: wrap;
+  gap: 20px; /* Add gap between cards */
+  
+}
+
+.card {
+  width: 400px; /* Adjust card width */
+  background-image: linear-gradient(rgb(28, 26, 26), rgb(45, 6, 97));
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add box shadow */
+  height: 500px;
+  color: white;
+  border: 1px solid rgb(183, 236, 36);
+}
+
+.card h4 {
+  margin-bottom: 10px;
+  font-size: 20px;
+  color: #f3eeee;
+}
+
+.card p {
+  margin-bottom: 15px;
+}
+
+.card .btn {
+  display: block;
+  width: calc(100% - 20px); /* Adjust width to fit within the card */
+  margin: 10px auto; /* Center the button horizontally and add margin for spacing */
+  text-align: center;
+  padding: 15px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.card .btn:hover {
+  background-color: #0056b3;
+}
+
+.card .btn:hover {
+  background-color: #0056b3;
+}
+
+@keyframes scaleIn {
+  0% {
+    transform: scale(0.7);
+    opacity: 0;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 3;
+  }
+}
+
+.card-hover {
+  animation: scaleIn 2.5s ease forwards; /* Apply animation */
+}
+
+@keyframes scaleIn{
+  0% {
+    transform: scale(0.7);
+    opacity: 0;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 3;
+  }
+}
+
+.card-text {
+  animation: scaleIn 2.5s ease forwards; /* Apply animation */
+}
+
+@keyframes scaleIn{
+  0% {
+    transform: scale(0.7);
+    opacity: 0;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 3;
+  }
+}
+
+.list {
+  animation: scaleIn 2.5s ease forwards; /* Apply animation */
+}
+
+@media (max-width: 500px) {
+  .card {
+    width: calc(100% - 1px);
+    height: 500px;
+    border-color: aqua;
+  }
+}
+

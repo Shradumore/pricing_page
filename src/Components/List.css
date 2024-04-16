@@ -1,0 +1,19 @@
+
+.list{
+    text-align: left;
+}
+
+.list-item {
+  margin: 10px;/* Add some spacing between list items */
+  list-style: none;
+ margin-left: -20px;
+}
+
+.list-item .flex > *:first-child {
+  margin-right: 1rem; /* Adjust the value as needed */
+}
+
+.green-icon{
+  color: rgb(239, 9, 9);
+  font-size: x-large;
+}
